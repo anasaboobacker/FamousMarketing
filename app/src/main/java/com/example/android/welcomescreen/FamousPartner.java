@@ -13,21 +13,22 @@ public class FamousPartner extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_famous_partner);
     }
-    public void loginClick (View v){
 
-        Button button = (Button) v ;
-        startActivity(new Intent(getApplicationContext(),LoginPage.class)) ;
+    public void loginClick(View v) {
+
+        Button button = (Button) v;
+        startActivity(new Intent(getApplicationContext(), LoginPage.class));
     }
 
-    public void signUpClick (View v){
+    public void signUpClick(View v) {
 
-        Button button = (Button) v ;
-        startActivity(new Intent(getApplicationContext(),SignUp.class)) ;
+        Button button = (Button) v;
+        startActivity(new Intent(getApplicationContext(), SignUp.class));
     }
 
-    public void homeClick (View v){
+    public void homeClick(View v) {
 
-        Button button = (Button) v ;
-        startActivity(new Intent(getApplicationContext(),HomePage.class)) ;
+        Button button = (Button) v;
+        startActivity(new Intent(getApplicationContext(), HomePage.class));
     }
 }

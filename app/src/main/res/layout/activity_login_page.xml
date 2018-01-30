@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#F9FBE7"
+    android:orientation="vertical"
     tools:context="com.example.android.welcomescreen.LoginPage">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:src="@drawable/famouspen"/>
+        android:src="@drawable/famouspen" />
 
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:drawableLeft="@drawable/passimage"
-    android:drawablePadding="16dp"
-    android:inputType="textEmailAddress"
-    android:hint="Email"
-    android:shadowDx="1.2"
-    android:shadowDy="1.2"
-     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/passimage"
+        android:drawablePadding="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:shadowDx="1.2"
+        android:shadowDy="1.2" />
 
     <EditText
         android:layout_width="match_parent"
@@ -33,31 +31,26 @@
         android:layout_margin="10dp"
         android:drawableLeft="@drawable/passmagei"
         android:drawablePadding="16dp"
-        android:inputType="textPassword"
         android:hint="Password"
+        android:inputType="textPassword"
         android:shadowDx="1.2"
-        android:shadowDy="1.2"
-        />
-    
-    
+        android:shadowDy="1.2" />
+
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/round_background"
         android:layout_margin="16dp"
-        android:text="Connection"
-        />
-    
+        android:background="@drawable/round_background"
+        android:text="Connection" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right"
-        android:text="Forgot Password"
+        android:layout_margin="10dp"
         android:autoLink="all"
-        android:layout_margin="10dp"/>
-
-
-
+        android:gravity="right"
+        android:text="Forgot Password" />
 
 
 </LinearLayout>

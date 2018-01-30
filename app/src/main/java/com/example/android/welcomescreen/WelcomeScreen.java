@@ -15,10 +15,10 @@ public class WelcomeScreen extends AppCompatActivity {
 
     }
 
-    public void partnerClick (View v){
+    public void partnerClick(View v) {
 
-        Button button = (Button) v ;
-        startActivity(new Intent(getApplicationContext(),FamousPartner.class)) ;
+        Button button = (Button) v;
+        startActivity(new Intent(getApplicationContext(), FamousPartner.class));
     }
 }
 

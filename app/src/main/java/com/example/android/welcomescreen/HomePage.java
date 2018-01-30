@@ -6,9 +6,9 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 public class HomePage extends AppCompatActivity {
-        RecyclerView recyclerView ;
-        RecyclerView.LayoutManager layoutManager ;
-        RecyclerView.Adapter adapter ;
+    RecyclerView recyclerView;
+    RecyclerView.LayoutManager layoutManager;
+    RecyclerView.Adapter adapter;
 
 
     @Override
@@ -17,10 +17,10 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
 
-        recyclerView = (RecyclerView) findViewById(R.id.recyclerview) ;
-        layoutManager = new LinearLayoutManager(this) ;
-        recyclerView.setLayoutManager(layoutManager) ;
-        adapter = new RecyclerAdapter() ;
+        recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        adapter = new RecyclerAdapter();
         recyclerView.setAdapter(adapter);
 
     }

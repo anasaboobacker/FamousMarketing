@@ -20,14 +20,11 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="8dp"
         android:background="@drawable/round_background"
-
         android:fontFamily="sans-serif"
         android:onClick="partnerClick"
         android:text="Famous Partner"
-
         android:textAllCaps="false"
         android:textColor="#000"
-
         android:textStyle="normal" />
 
     <View
@@ -45,13 +42,10 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="8dp"
         android:background="@drawable/round_background"
-
         android:fontFamily="sans-serif"
         android:text="Famous Business"
         android:textAllCaps="false"
         android:textColor="#000"
-
-
         android:textStyle="normal" />
 
 
