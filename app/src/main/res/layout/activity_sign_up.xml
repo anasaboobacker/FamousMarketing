@@ -98,13 +98,6 @@
             android:layout_margin="16dp"
             android:text="Save"
             android:background="@drawable/round_background"/>
-
-
-
-
-
-
-
     </LinearLayout>
 
 
