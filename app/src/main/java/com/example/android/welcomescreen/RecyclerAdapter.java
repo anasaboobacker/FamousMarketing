@@ -14,11 +14,15 @@ import android.widget.TextView;
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
 
-    private String[] categories = {"category 1", "category 2", "category 3", "category 4", "catergory 5"};
+    private String[] categories = {"category ", "category 2", "category 3", "category 4", "catergory 5"};
 
     private int[] images = {R.drawable.famouspen, R.drawable.famouspen, R.drawable.famouspen, R.drawable.famouspen,
             R.drawable.famouspen};
+    private HomePage homePage;
 
+    RecyclerAdapter(HomePage homePage) {
+        this.homePage = homePage;
+    }
 
     class ViewHolder extends RecyclerView.ViewHolder {
 
@@ -30,8 +34,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             super(itemView);
             itemImage = (ImageView) itemView.findViewById(R.id.category_image);
             itemText = (TextView) itemView.findViewById(R.id.category_name);
-
-
+            itemView.setClickable(true);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    homePage.gotoAd();
+                }
+            });
         }
     }
 

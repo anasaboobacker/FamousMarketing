@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBE7"
+    tools:context="com.example.android.welcomescreen.SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/famouspen"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableLeft="@drawable/home"
+            android:drawablePadding="30dp"
+            android:hint="Home"
+            android:background="@drawable/round_background" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableLeft="@drawable/ads"
+            android:drawablePadding="10dp"
+            android:hint="Recent Ads"
+            android:background="@drawable/round_background" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableLeft="@drawable/partners"
+            android:drawablePadding="10dp"
+            android:hint="Our Partners"
+            android:background="@drawable/round_background" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableLeft="@drawable/sponsors"
+            android:drawablePadding="10dp"
+            android:hint="Sponsors"
+            android:background="@drawable/round_background" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:drawableLeft="@drawable/contactus"
+            android:drawablePadding="10dp"
+            android:hint="Contact Us"
+            android:background="@drawable/round_background" />
+
+
+
+            </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -13,12 +13,34 @@ public class WelcomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome_screen);
 
+
+
     }
 
     public void partnerClick(View v) {
 
-        Button button = (Button) v;
-        startActivity(new Intent(getApplicationContext(), FamousPartner.class));
+
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
     }
+
+
+////    public void partnerClick(View v) {
+////        Button partnerButton = new Button(this) ;
+////        partnerButton.setId(R.id.individuals_button);
+////        partnerButton = (Button) findViewById(R.id.individuals_button) ;
+////        partnerButton.setClickable(true);
+////        partnerButton.setOnClickListener(new View.OnClickListener() {
+////            @Override
+////            public void onClick(View view) {
+////
+////                startActivity(new Intent(getApplicationContext(), FamousPartner.class));
+////
+////            }
+////        });
+//
+//
+//
+//
+//    }
 }
 

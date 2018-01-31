@@ -13,19 +13,29 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/famouspen" />
 
-    <Button
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        rv_centered="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/division_bar"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="8dp"
-        android:background="@drawable/round_background"
-        android:fontFamily="sans-serif"
-        android:onClick="partnerClick"
-        android:text="Famous Partner"
-        android:textAllCaps="false"
-        android:textColor="#000"
-        android:textStyle="normal" />
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/individuals_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+
+            android:background="@drawable/round_background"
+            android:fontFamily="sans-serif"
+            android:onClick="partnerClick"
+            android:text="@string/individuals"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="normal" />
+    </com.andexert.library.RippleView>
 
     <View
         android:id="@+id/division_bar"
@@ -43,7 +53,7 @@
         android:layout_margin="8dp"
         android:background="@drawable/round_background"
         android:fontFamily="sans-serif"
-        android:text="Famous Business"
+        android:text="@string/enterprises"
         android:textAllCaps="false"
         android:textColor="#000"
         android:textStyle="normal" />

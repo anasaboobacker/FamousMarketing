@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شركاء مشاهير</string>
+    <string name="enterprises">الشركات</string>
+    <string name="Famous_marketing">شركاء مشاهير</string>
+    <string name="login">"تسجيل الدخول "</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="password">"كلمه السر "</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="country">بلد</string>
+    <string name="terms_and_conditions_accepted">البنود والشروط المقبولة</string>
+    <string name="save">حفظ</string>
+    <string name="recent_ads">الإعلانات الحديثة</string>
+    <string name="partners">شركاؤنا</string>
+    <string name="sponsors">الرعاة</string>
+    <string name="contact_us">اتصل</string>
+    <string name="about">معلومات عنا</string>
+    <string name="advertisements">الإعلانات</string>
+    <string name="individuals">الأفراد</string>
+    <string name="sign_up">سجل</string>
+    <string name="email">البريد الإلكتروني</string>
+</resources>

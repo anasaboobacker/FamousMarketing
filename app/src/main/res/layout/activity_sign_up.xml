@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:gravity="center"
-            android:text="Sign UP"
+            android:text="@string/sign_up"
             android:textAllCaps="true"
             android:textSize="45dp" />
 
@@ -27,7 +27,7 @@
             android:layout_margin="16dp"
             android:drawableLeft="@drawable/email"
             android:drawablePadding="10dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress" />
 
         <EditText
@@ -36,7 +36,7 @@
             android:layout_margin="16dp"
             android:drawableLeft="@drawable/passimage"
             android:drawablePadding="10dp"
-            android:hint="User Name"
+            android:hint="@string/user_name"
             android:inputType="text" />
 
         <EditText
@@ -45,7 +45,7 @@
             android:layout_margin="16dp"
             android:drawableLeft="@drawable/passmagei"
             android:drawablePadding="10dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword" />
 
         <EditText
@@ -54,14 +54,14 @@
             android:layout_margin="16dp"
             android:drawableLeft="@drawable/passmagei"
             android:drawablePadding="10dp"
-            android:hint="Confirm Password"
+            android:hint="@string/confirm_password"
             android:inputType="textPassword" />
 
         <AutoCompleteTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:hint="Country" />
+            android:hint="@string/country" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -72,13 +72,13 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Famous Business" />
+                android:text="@string/individuals" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:text="Famous Business" />
+                android:text="@string/enterprises" />
 
 
         </LinearLayout>
@@ -88,14 +88,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:autoLink="all"
-            android:text="Terms and Conditions Accepted" />
+            android:text="@string/terms_and_conditions_accepted" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:background="@drawable/round_background"
-            android:text="Save" />
+            android:text="@string/save" />
     </LinearLayout>
 
 

@@ -3,6 +3,7 @@
     package="com.example.android.welcomescreen">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,9 +20,22 @@
             </intent-filter>
         </activity>
         <activity android:name=".FamousPartner" />
-        <activity android:name=".LoginPage" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".HomePage"></activity>
+        <activity android:name=".LoginPage"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SignUp"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".HomePage" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Advertisements"
+            />
+        <activity android:name=".Recent_ads" />
+        <activity android:name=".Partners" />
+        <activity android:name=".Sponsors" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>
