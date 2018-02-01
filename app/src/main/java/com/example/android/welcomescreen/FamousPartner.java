@@ -24,7 +24,7 @@ public class FamousPartner extends Fragment{
         super.onViewCreated(view, savedInstanceState);
         Button loginButton = view.findViewById(R.id.login_button);
         Button signUpButton = view.findViewById(R.id.signup_button);
-//        Button homeButton = view.findViewById(R.id.home_button) ;
+        Button homeButton = view.findViewById(R.id.home_button) ;
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,12 +39,12 @@ public class FamousPartner extends Fragment{
             }
         });
 
-//        homeButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                homeClick();
-//            }
-//        });
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                homeClick();
+            }
+        });
     }
 
 
@@ -57,10 +57,9 @@ public class FamousPartner extends Fragment{
 
         startActivity(new Intent(getActivity(), SignUp.class));
     }
-//    public void homeClick() {
-
-//        startActivity(new Intent(getActivity(), HomePage.class));
-//    }
+    public void homeClick() {
+        ((MainActivity) getActivity()).goToMain();
+    }
 
     @Override
     public void onResume() {

@@ -30,6 +30,7 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Advertisements"
+            android:parentActivityName=".MainActivity"
             />
         <activity android:name=".Recent_ads" />
         <activity android:name=".Partners" />

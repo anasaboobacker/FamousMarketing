@@ -15,7 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
 
         getFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_container,new FamousPartner())
+                .replace(R.id.fragment_container, new FamousPartner())
                 .commit();
     }
 
@@ -57,6 +57,14 @@ public class MainActivity extends AppCompatActivity
         } else {
             super.onBackPressed();
         }
+    }
+
+    public void goToMain() {
+        getFragmentManager()
+                .beginTransaction()
+                .addToBackStack("")
+                .replace(R.id.fragment_container, new HomePage())
+                .commit();
     }
 
     @Override
@@ -110,7 +118,7 @@ public class MainActivity extends AppCompatActivity
 
         getFragmentManager()
                 .beginTransaction()
-                .replace(R.id.fragment_container,fragment)
+                .replace(R.id.fragment_container, fragment)
                 .addToBackStack("stack")
                 .commit();
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

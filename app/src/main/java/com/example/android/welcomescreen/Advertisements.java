@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Advertisements extends AppCompatActivity {
+public class Advertisements extends BaseActivity {
 
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
